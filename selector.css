@@ -1,0 +1,38 @@
+p{
+    background-color: aqua;
+}
+.para1{
+    color: red;
+}
+#para1-uniq1{
+    color:rgb(119, 0, 255);  
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type="text"]{
+    border:1px solid blue;
+}
+/*ul li{
+    background-color: beige;
+    margin:10px;
+}*/
+ul>li{
+    background-color: beige;
+    margin:10px;
+}
+section + p{
+    background-color: aqua;
+}
+section ~ p{
+    background-color: rgb(9, 255, 0);
+}
+a:hover{
+    background-color: black;
+    color:white;
+}
+p::first-letter{
+    font-weight: bold;
+    font-size: 20px;
+}
